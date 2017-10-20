@@ -63,7 +63,7 @@ The data that will be stored in our database are primarily video clips and user 
 
 ### 1.5  Preliminary Entity-Relationship Diagram
 
-##### Because MongoDB is non-relational, an ERD is not necessary. Our OneUp web application consists of three main attributes that have several child attributes (stated above). Below is a high-level diagram of how the attributes relate to each other. 
+#####  Our OneUp web application consists of three main attributes that have several child attributes (stated above). Below is a high-level diagram of how the attributes relate to each other. 
 
 <p align="center">
 	<img src="../images/ERDprelim.png">
