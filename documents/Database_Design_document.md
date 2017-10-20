@@ -37,37 +37,36 @@ The data that will be stored in our database are primarily video clips and user 
 
 ### 1.4  Preliminary Idea of the Schema
 
-- Table: User
-    - Description: Logs every user that creates an account on OneUp
-    - Columns
-        - ID (primary key)
-        - Username
-        - Password
-        - Email
+##### MongoDB non-relational idea of the schema
+- Description: Involves users, videos, and upvotes as the main attributes of OneUp
 
-- Table: Videos
-    - Description: Stores videos uploaded by a user and the information with it
-    - Columns
-        - Video ID(primary key)
-        - User ID
-        - Title
-        - Date
-        - Description
-        - Upvote count
+	- Table: OneUp
+		- User
+			- ID (primary key)
+			- Username
+			- Password
+			- Email
+		- Video
+			- Video ID(primary key)
+			- User ID
+			- Title
+			- Date
+			- Description
+			- Upvote count
 
-- Table: Upvotes
-    - Description: Keeps track of upvotes on a video from every user
-    - Columns
-        - Upvote ID (primary key)
-        - User ID
-        - Video ID
+		- Upvotes
+			- Upvote ID (primary key)
+			- User ID
+			- Video ID
 
 
 
 ### 1.5  Preliminary Entity-Relationship Diagram
 
+##### Because MongoDB is non-relational, an ERD is not necessary. Our OneUp web application consists of three main attributes that have several child attributes (stated above). Below is a high-level diagram of how the attributes relate to each other. 
+
 <p align="center">
-	<img src="../images/ERDprelim.png" alt="Preliminary ERD">
+	<img src="../images/ERDprelim.png">
 	
 </p>
 
