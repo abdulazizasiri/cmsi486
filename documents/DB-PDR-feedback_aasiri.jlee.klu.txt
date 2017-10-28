@@ -1,0 +1,15 @@
+
+
+Abdulaziz and Justin and Khiem ---
+
+Great work!
+
+Should I assume that since you are using mongo, the "entities" in your ERD
+are the "collections" in your mongo database?  If so, you might put a note
+in that section stating that as an assumption, when you do the detailed
+version.
+
+You did a wonderful job on this document.
+
+Total: 10% out of 10% which is an A-plus.
+
