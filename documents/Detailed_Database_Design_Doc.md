@@ -42,7 +42,7 @@ The data that will be stored in our database are primarily video clips and user 
     - Clip ID
         - A unique ID that references a clip. This will be stored as an integer
     - Clip
-        - The video clip file. (NOT SURE WHAT THIS WILL BE STORED AS)
+        - The video clip file.
     - Title
         - The title of the video clip. This will be stored as a string.
     - Description
