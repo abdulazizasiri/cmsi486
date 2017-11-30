@@ -10,6 +10,43 @@ OneUp Web Application (in development): https://github.com/abdulazizasiri/OneUp
 
 The purpose of this database project is to display how we store user-added information about the user and the videos they upload.
 
+To implement this database, we intend to use MongoDB for querying skate clips and user information, creating schemas specific to our needs, updating data, and deleting data.
+
+### Data Dictionary
+
+#### User Collection
+
+  - User ID
+      - A unique ID to reference a user. This will be stored as an integer.
+  - Username
+      - The username of the user. This will be stored as a string.
+  - Name
+      - The name of the user. This will be stored as a string.
+  - Email
+      - The user’s email address. This will be stored as a string.
+  - Password
+      - The user’s password. This will be stored as a string.
+  - Bio
+      - The user’s bio that includes information such as current sponsors, achievements, accolades or anything the user would like to share. This will be stored as a string.
+  - Social Media Links
+      - A list of the user’s social media accounts. This will be stored as a string.
+
+#### Video Clip Collection
+
+  - Clip ID
+      - A unique ID that references a clip. This will be stored as an integer
+  - Clip
+      - The video clip file.
+  - Title
+      - The title of the video clip. This will be stored as a string.
+  - Description
+      - A description of the video clip. This will be stored as a string.
+  - Uploader 
+      - The user that uploaded the clip. This will be stored as a string.
+  - Upvotes 
+      - The number of upvotes that the clip has received. This will be stored as an integer.
+
+
 ### Demonstration
 
 1) Creating an Account- Storing Information
