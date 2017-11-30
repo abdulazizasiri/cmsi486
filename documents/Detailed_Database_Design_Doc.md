@@ -96,3 +96,13 @@ Because MongoDB is non-relational, the “entities” in the following diagram a
 
 The representation of this diagram in the JSON file will have embedded data stored to make some entities communicate with other entities. For example, If a video was voted (downvoted/upvoted), then the user entity should  establish a reference to that video to know it belongs to this user. So, we will have a video entity storing the User_ID embedded inside it. 
 
+
+### Demonstration
+
+##### Signing In- Querying Information
+
+##### Settings- Updating Information
+
+##### Uploading Video- Storing Video and Metadata
+
+##### Signing In with different users
