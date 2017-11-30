@@ -99,12 +99,14 @@ The representation of this diagram in the JSON file will have embedded data stor
 
 ### Demonstration
 
+The main functionalities of this database project are to store and update information that users provide to the web application. Here are examples of user-added data.
+
 ##### Creating an Account- Storing Information
 
 ##### Signing In- Querying Information
 
 ##### Settings- Updating Information
 
-##### Uploading Video- Storing Video and Metadata
+##### Uploading Video- Storing Video Link and Information
 
 ##### Signing In with different users
