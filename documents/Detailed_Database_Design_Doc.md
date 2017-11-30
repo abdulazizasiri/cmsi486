@@ -99,6 +99,8 @@ The representation of this diagram in the JSON file will have embedded data stor
 
 ### Demonstration
 
+##### Creating an Account- Storing Information
+
 ##### Signing In- Querying Information
 
 ##### Settings- Updating Information
